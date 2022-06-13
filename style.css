@@ -277,8 +277,10 @@ section .title::after{
     text-align: center;
     border-radius: 6px;
     padding: 50px 25px;
+    margin-bottom: 30px;
     cursor: pointer;
     transition: all 0.3s ease;
+
 }
 .services .serv-content .card:hover{
     background: crimson;
@@ -384,7 +386,7 @@ section .title::after{
 
 /* certificates section styling */
 .certificates .title::after{
-    content: "my certificates";
+    content: "my certificates & badges";
 }
 .certificates .carousel .card{
     background: #222;
@@ -415,7 +417,7 @@ section .title::after{
 .certificates .carousel .card img{
     height: 270px;
     width: 300px;
-    object-fit: fill;
+    object-fit: cover;
     border-radius: 10%;
     border: 5px solid crimson;
     transition: all 0.3s ease;
@@ -541,10 +543,6 @@ section .title::after{
   background: none;
 }
 
-/* register page styling */
-.register .title::after{
-    content: "Kindly fill the form below";
-}
 
 /* footer section styling */
 footer{
